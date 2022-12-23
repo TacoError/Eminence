@@ -10,7 +10,6 @@
 
 body {
 	overflow: hidden;
-	margin: 0 !important;
 	background: black;
 }
 
@@ -45,4 +44,9 @@ body {
 
 #heroes {
 	visibility: hidden;
+}
+
+.heroDescription {
+	border: 1px solid white;
+	width: 400px;
 }
