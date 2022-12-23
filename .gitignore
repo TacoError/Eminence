@@ -1,7 +1,7 @@
 .replit
 replit.nix
-./node_modules
-./idea
+node_modules
+idea
 package-lock.json
-./data
-./.config
+data
+.config

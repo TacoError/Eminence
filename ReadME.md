@@ -8,6 +8,7 @@ Project status:
  - Make it easy to add heroes, and create maps.
  - Make a smooth, and enjoyable in-game experience.
  - Have a easy on the eyes, and easy to work with client-side UI.
+ - Learn more about sockets, client-side UI, and other things along the way.
 
 # Info
  - Project maintainer is Taco (Also known as Taylor!)
