@@ -20,6 +20,8 @@ class Client {
 		this.socket.onAny(this.handle);
 
 		this.player = null;
+
+		this.emit("heroes", heroManager.pack());
 	}
 
 	handle(sEvent, ...args) {
@@ -60,7 +62,7 @@ class Client {
 			return;
 		}
 
-		this.player = new Player(name, heroManager.getHero(hero));		
+		this.player = new Player(name, heroManager.getHero(hero), this);		
 	}
 	
 	close() {

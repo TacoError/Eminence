@@ -15,6 +15,7 @@ Project status:
  - This project is being contributed to in replit by me.
  - This was made for fun, I have no intention of releasing this publicly.
  - All credits go to the creator(s) of [evades.io](https://evades.io)
+ - I named this project after a shade of violet. I do not know why, I thought it sounded cool haha.
 
 # License
  - There is none, this game was not in any way an original idea by me.

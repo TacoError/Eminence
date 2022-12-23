@@ -17,7 +17,7 @@ class EminenceServer {
 		const server = createServer(app);
 		const io = new Server(server);
 
-		app.use(express.static("../client/"));
+		app.use(express.static(__dirname + "/../client"));
 		const port = process.env.PORT || 4000;
 		server.listen(port);
 
