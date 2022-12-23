@@ -1,0 +1,17 @@
+{
+  "name": "eminence",
+  "version": "1.0.0",
+  "description": "Evades.IO fan game",
+  "main": "./server/server.js",
+  "scripts": {
+	"start": "node ./server/server/js"
+  },
+  "author": "Taco (Taylor!)",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "sat": "^0.9.0",
+    "socket.io": "^4.5.4"
+  }
+}
